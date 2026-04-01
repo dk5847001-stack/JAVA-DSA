@@ -7,7 +7,7 @@ public class pQ4 {
         float f = 3.14f;
         double d = 99.99789;
 
-        result = (f * b) + (i % c) - (d * s);
+        double result = (f * b) + (i % c) - (d * s);
         System.out.println(result);
     }
 }
