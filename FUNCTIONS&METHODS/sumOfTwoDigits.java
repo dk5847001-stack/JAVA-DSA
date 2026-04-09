@@ -1,8 +1,8 @@
 import java.util.*;
 public class sumOfTwoDigits {
-    public static void sum(int num1, int num2) {
+    public static void sum(int num1, int num2) {         //Parametrs
         int Sum = num1 + num2;
-        System.out.println("Sum = "+Sum);
+        System.out.println("Sum = "+Sum);               
     }
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -10,6 +10,7 @@ public class sumOfTwoDigits {
         int a = input.nextInt();
         System.out.print("Enter 2nd number : ");
         int b = input.nextInt();
-        sum(a, b);
+        sum(a, b);                                       //Arguments
+        input.close();
     }
 }
