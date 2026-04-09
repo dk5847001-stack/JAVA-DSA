@@ -1,6 +1,6 @@
 import java.util.*;
 public class sumOfTwoDigits {
-    public static void sum(int num1, int num2) {         //Parametrs
+    public static void sum(int num1, int num2) {         //Parametrs or formal parameters
         int Sum = num1 + num2;
         System.out.println("Sum = "+Sum);               
     }
@@ -10,7 +10,7 @@ public class sumOfTwoDigits {
         int a = input.nextInt();
         System.out.print("Enter 2nd number : ");
         int b = input.nextInt();
-        sum(a, b);                                       //Arguments
+        sum(a, b);                                       //Arguments or actual parameters
         input.close();
     }
 }
