@@ -10,6 +10,6 @@ public class desimalToBinary {
         return binum;
     }
     public static void main(String[] args) {
-        System.out.println(desimalToBinarys(1000));
+        System.out.println(desimalToBinarys(19));
     }
 }
